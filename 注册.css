@@ -1,0 +1,357 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* 设置头部的样式 */
+/* 设置头部的背景色和高度 */
+#head {
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.fixed{
+    position: fixed;
+    top: 60px
+}
+/* 让头部最左边的小图标剧中 */
+#left img {
+    height: 37px;
+    margin-top: 11.5px;
+}
+
+/* 给头部里面在加一个盒子，这样具有不会出现页面放大缩小，结构变化 */
+#head-y {
+    width: 1519px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+/* 让左边图片浮动 */
+#left {
+    margin-left: 40px;
+    height: 37px;
+    width: 110px;
+    float: left;
+}
+
+/* 中间文字浮动 */
+li {
+    list-style: none;
+    float: left;
+    margin-top: 20px;
+}
+
+/* 中间盒子的宽高 */
+#middle {
+    margin-left: 525px;
+    height: 60px;
+    width: 500px;
+}
+
+/* 中间盒子的文字居中 */
+#middle li {
+    margin-right: 20px;
+}
+
+/* 所有a标签的样式 */
+#ul1 a,
+#right-b a,
+#right-c a {
+    text-decoration: none;
+    color: #999999;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* 给右边盒子设置宽高和浮动 */
+#right {
+    height: 60px;
+    width: 300px;
+    float: left;
+    margin-top: -60px;
+    margin-left: 1200px;
+}
+
+/* 右边盒子里面的图片 */
+#right-a img {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+/* 右边盒子里面的所有小盒子设施浮动 */
+#right-a,
+#right-b,
+#right-c,
+#right-d {
+    float: left;
+}
+
+#right-d {
+    height: 0px;
+    width: 140px;
+    margin-top: 15px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, .8);
+    overflow: hidden;
+}
+
+/* 右边盒子图片居中 */
+#right-a {
+    margin-top: 21px;
+    margin-right: 26px;
+}
+
+/* 右边盒子文字居中 */
+#right-b,
+#right-c {
+    margin-top: 18px;
+    margin-right: 26px;
+}
+
+
+
+/* 尾巴 */
+#foot {
+    font-size: 13px;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: #999999;
+    clear: both;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+}
+
+#foot-total {
+    width: 1200px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+#foot-total div:nth-of-type(1) {
+    width: 330px;
+    height: 30px;
+    float: left;
+    margin-top: 24px;
+}
+
+#foot-total div:nth-of-type(2) {
+    width: 400px;
+    height: 30px;
+    float: left;
+    margin-left: 105px;
+    margin-top: 24px;
+}
+
+#foot-total div:nth-of-type(3) {
+    width: 83px;
+    height: 20px;
+    float: left;
+    margin-left: 276px;
+    margin-top: 24px;
+
+}
+
+#foot-total div:nth-of-type(4) {
+    width: 121px;
+    height: 30px;
+    clear: both;
+    margin: 20px auto;
+    padding-top: 10px;
+}
+#foot-total-ul li {
+    margin-top: 0px;
+    margin-right: 20PX;
+    cursor: pointer;
+}
+
+
+
+
+/* 中间部分 */
+#middles{
+    height: 720px;
+    width: 50%;
+    margin: 60px auto;
+    float: left;
+}
+
+#middles>img{
+    width: 100%;
+}
+
+/* #middles{
+     position: absolute;
+     width: 50%; 
+    background-size: cover;
+    background-position: 50%;
+    background-image: url(./图片.ing/d1.jpg);
+    background-repeat: no-repeat;
+     height: 700px;
+} */
+
+#you{
+    float: right;
+    width: 50%;
+    margin-bottom: 100px;
+    margin-top: 60px;
+    display:table-cell;
+    vertical-align:middle;
+    height: 720px;
+}
+
+
+#rightPlus>div:nth-of-type(1){
+   font-size: 40px;
+   font-weight: bold;
+   color: black;
+   margin-top: -6px;
+}
+
+#rightPlus input{
+    outline: none;
+}
+
+#rightPlus>div{
+    margin-left: 88px;
+}
+
+#rightPlus-two{
+   height: 30px;
+   margin-top: 20px;
+}
+
+#rightPlus-two>div{
+    float: left;
+}
+#rightPlus-two>div:nth-of-type(1)>div:nth-of-type(1){
+    font-size: 16px;
+    font-weight: 600;
+    color: #1088f2;
+}
+
+#rightPlus-two>div:nth-of-type(2)>div:nth-of-type(1){
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+#rightPlus-two>div:nth-of-type(1)>div:nth-of-type(2){
+     width: 32px;
+     height: 2px;
+     background-color: #1088f2;
+     margin-top: 5px;
+}
+#rightPlus-two>div:nth-of-type(2)>div:nth-of-type(2){
+     width: 32px;
+     height: 2px;
+     background-color: black;
+     margin-top: 5px;
+     display: none;
+}
+#rightPlus-two>div:nth-of-type(1){
+    margin-right: 30px;
+}
+
+#rightPlus>div:nth-of-type(3),#rightPlus>div:nth-of-type(6),
+#rightPlus>div:nth-of-type(8),#rightPlus>div:nth-of-type(10){
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    
+}
+#rightPlus>div:nth-of-type(4)>input,
+#rightPlus>div:nth-of-type(9)>input,
+#rightPlus>div:nth-of-type(11)>input{
+    width: 516px;
+    height: 39px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, .4);
+}
+#wu{
+    width: 300px;
+    height: 34px;
+    margin-top: 18px;
+    margin-bottom: 15px;
+    background-color: rgba(128, 128, 128, .2);
+    font-size: 12px;
+}
+
+#wu>div:nth-of-type(1){
+    width: 40px;
+    height: 32px;
+    color: #737383;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    background-color: white;
+    line-height: 32px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 82px;
+}
+
+
+
+
+#rightPlus-seven>input{
+    width: 348px;
+    height: 39px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, .4);
+}
+#rightPlus-seven>button{
+    width: 158px;
+    height: 39px;
+    background-color: #70b8f7;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-left: 6px;
+}   
+#rightPlus>div:nth-of-type(12),#rightPlus>div:nth-of-type(13){
+    margin-top: 15px;
+    font-size: 12px;
+     height: 20px;  
+}
+
+#rightPlus>div:nth-of-type(12)>input,
+#rightPlus>div:nth-of-type(13)>input{
+      width: 12px;
+      height: 12px;
+}
+
+#rightPlus>div:nth-of-type(12)>div{
+   display: inline-block;
+}
+
+#rightPlus span{
+    color:#1088f2 ;
+}
+
+#rightPlus>div:nth-of-type(14)>button{
+    width: 516px;
+    height: 40px;
+    margin-top: 28px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    background-color: #70b8f7;
+}
+
+#rightPlus>div:nth-of-type(15){
+   width: 516px;
+   margin-top: 35px;
+   margin-bottom: 35px;
+}
+
+#rightPlus>div:nth-of-type(16){
+  margin-left: 304px;
+  font-size: 12px;
+}

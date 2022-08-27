@@ -1,0 +1,577 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* 设置头部的样式 */
+/* 设置头部的背景色和高度 */
+#head {
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+#pk.fixed{
+    position: fixed;
+    top: 60px
+}
+/* 让头部最左边的小图标剧中 */
+#left img {
+    height: 37px;
+    margin-top: 11.5px;
+}
+
+/* 给头部里面在加一个盒子，这样具有不会出现页面放大缩小，结构变化 */
+#head-y {
+    width: 1519px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+/* 让左边图片浮动 */
+#left {
+    margin-left: 40px;
+    height: 37px;
+    width: 110px;
+    float: left;
+}
+
+/* 中间文字浮动 */
+li {
+    list-style: none;
+    float: left;
+    margin-top: 20px;
+}
+
+/* 中间盒子的宽高 */
+#middle {
+    margin-left: 525px;
+    height: 60px;
+    width: 500px;
+}
+
+/* 中间盒子的文字居中 */
+#middle li {
+    margin-right: 20px;
+}
+
+/* 所有a标签的样式 */
+#ul1 a,
+#right-b a,
+#right-c a {
+    text-decoration: none;
+    color: #999999;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* 给右边盒子设置宽高和浮动 */
+#right {
+    height: 60px;
+    width: 300px;
+    float: left;
+    margin-top: -60px;
+    margin-left: 1200px;
+}
+
+/* 右边盒子里面的图片 */
+#right-a img {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+/* 右边盒子里面的所有小盒子设施浮动 */
+#right-a,
+#right-b,
+#right-c,
+#right-d {
+    float: left;
+}
+
+#right-d {
+    height: 0px;
+    width: 140px;
+    margin-top: 15px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, .8);
+    overflow: hidden;
+}
+
+/* 右边盒子图片居中 */
+#right-a {
+    margin-top: 21px;
+    margin-right: 26px;
+}
+
+/* 右边盒子文字居中 */
+#right-b,
+#right-c {
+    margin-top: 18px;
+    margin-right: 26px;
+}
+
+ 
+
+
+
+ #bingdao{
+   position: relative;
+   margin-top: 60px;
+}  
+
+#bingdao>img{
+    width: 100%;
+    height: 408px; 
+}
+
+#bingdao>div{
+    position: absolute;
+    width: 260px;
+    height: 200px;
+    left: 42%;
+    top: 60px;
+}
+
+#bingdao>div>div:nth-of-type(1){
+   font-size: 32px;
+   font-weight: 700;
+   color: white;
+   margin: 20px auto;
+   width: 65px;
+}
+ 
+#bingdao button{
+    width: 258px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #1088f2;
+    border: none;
+    color: white;
+    font-weight: 600;  
+}
+
+
+
+
+
+
+
+
+/* 航拍攻略块 */
+#waist {
+    margin: 70px auto;
+    width: 1200px;
+    height: 280px;
+}
+
+#waist-middle img {
+    width: 282px;
+    height: 192px;
+}
+
+#waist-middle {
+    width: 1200px;
+    height: 225px;
+}
+
+
+#waist-middle li {
+    margin-right: 24px;
+    width: 282px;
+    height: 192px;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#waist-middle .last,
+#waist-bottom .last {
+    margin-right: 0;
+}
+
+#waist-bottom {
+    width: 1200px;
+    height: 30px;
+}
+
+#waist-bottom li {
+    margin-top: 0px;
+    width: 282px;
+    height: 25px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+#waist-top {
+    width: 110px;
+    height: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#waist-top a {
+    color: #1890ff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#waist-top div:nth-of-type(1) {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+#daren{
+    margin:30px auto;
+    width: 1200px;
+    height: 265px;
+}
+#daren li{
+  margin-right: 24px;
+  float: left;
+  width: 180px;
+  height: 208px;
+  background-color: rgba(211,211,211,0.2);
+}
+
+#daren>div{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#daren li img{
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    margin-top:  24px ;
+    margin-left: 58px;
+}
+#daren li div:nth-of-type(2){
+    margin-top: 15px;
+  font-size: 16px;
+  padding-left: 32px;
+}
+
+#daren button{
+    width: 78px;
+    height: 34px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px ;
+    margin-left: 52px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+#pk{
+    background-color: white;
+    height: 56px;
+    width: 100%;
+    z-index: 2;
+    position: relative;
+}
+
+#Pluf{
+    width: 1200px;
+    height: 56px;
+    margin: 0px auto;
+}
+
+#Pluf>div{
+    float: left;
+}
+
+#Pluf>div:nth-of-type(1){
+    display: none;
+    margin-top: 17px;
+}
+
+
+#daoHang{
+   font-size: 14px;
+   width: 150px;
+   height: 30px;
+   /* margin: 10px auto; */
+   margin-left: 525px;
+   margin-top: 17px;
+   position: relative;
+}
+
+
+#daoHang img{
+   width: 18px;
+   height: 18px;
+   vertical-align: middle;
+}
+
+#daoHang>div:nth-of-type(2){
+    left: 75px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#daoHang>div:nth-of-type(1){
+    position: absolute;
+    cursor: pointer;
+}
+
+#long{
+    width: 100px;
+    height: 140px;
+    display: none;
+    border-radius: 5px;
+    margin-left: -40px;
+    margin-top: 17px;
+    background-color: white;
+    border: 1px solid white;
+}
+
+#hu{
+    width: 100px;
+    height: 140px;
+    display: none;
+    border-radius: 5px;
+    margin-top: 17px;
+    background-color: white;
+    border: 1px solid white;
+}
+
+
+#long>div,#hu>div{
+    padding-left: 18px;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+#long>div:nth-of-type(1),#hu>div:nth-of-type(1){
+    margin-top: 7px;
+    font-weight: 600;
+    color: black;
+}
+
+
+
+
+
+
+
+
+/* 设置图片阴影 */
+#huiSe{
+    border: 1px solid rgba(211, 211, 211, .2);
+    height: 1350px;
+    width: 100%;
+    background-color:  rgba(211, 211, 211, .2);
+}
+
+#jiHe{
+  width: 1200px;
+  margin: 20px auto;
+  position: relative;
+  height: 1288px;
+}
+
+#jiHe>div{
+   position: absolute;
+   cursor: pointer;
+}
+
+.div-one{
+   position: relative;
+}
+
+.div-two{
+   position: absolute;
+}
+
+#jiHe>div:nth-of-type(1)>div:nth-of-type(2),
+#jiHe>div:nth-of-type(4)>div:nth-of-type(2),
+#jiHe>div:nth-of-type(5)>div:nth-of-type(2){
+    background-color: rgba(0,0,0,0.3);
+    display: none;
+    position: absolute;
+    width: 389px;
+    height: 486px;
+}
+
+#jiHe>div:nth-of-type(2)>div:nth-of-type(2),
+#jiHe>div:nth-of-type(7)>div:nth-of-type(2){
+    background-color: rgba(0,0,0,0.3);
+    display: none;
+    position: absolute;
+    width: 389px;
+    height: 518px;
+}
+
+#jiHe>div:nth-of-type(3)>div:nth-of-type(2),
+#jiHe>div:nth-of-type(6)>div:nth-of-type(2){
+    background-color: rgba(0,0,0,0.3);
+    display: none;
+    position: absolute;
+    width: 389px;
+    height: 218px;
+}
+
+#jiHe>div:nth-of-type(8)>div:nth-of-type(2){
+    background-color: rgba(0,0,0,0.3);
+    display: none;
+    position: absolute;
+    width: 389px;
+    height: 282px;
+}
+
+#jiHe>div:nth-of-type(9)>div:nth-of-type(2),
+#jiHe>div:nth-of-type(10)>div:nth-of-type(2){
+    background-color: rgba(0,0,0,0.3);
+    display: none;
+    position: absolute;
+    width: 389px;
+    height: 266px;
+}
+
+
+#jiHe>div:nth-of-type(1) img,
+#jiHe>div:nth-of-type(4) img,
+#jiHe>div:nth-of-type(5) img
+{
+    width: 389px;
+    height: 486px;
+}
+
+#jiHe>div:nth-of-type(2){
+    left: 406px;
+}
+
+#jiHe>div:nth-of-type(2) img,#jiHe>div:nth-of-type(7) img{
+    width: 389px;
+    height: 518px;
+} 
+
+#jiHe>div:nth-of-type(3){
+    left: 812px;
+}
+
+#jiHe>div:nth-of-type(3) img,#jiHe>div:nth-of-type(6) img{
+    width: 389px;
+    height: 218px;
+}
+
+#jiHe>div:nth-of-type(4){
+    top: 235px;
+    left: 812px;
+}
+
+#jiHe>div:nth-of-type(5){
+    top: 503px;  
+}
+
+#jiHe>div:nth-of-type(6){
+    top: 535px;  
+    left: 406px;
+}
+
+#jiHe>div:nth-of-type(7){
+    top: 770px;  
+    left: 406px;
+}
+
+#jiHe>div:nth-of-type(8){
+    top: 1006px;  
+}
+
+#jiHe>div:nth-of-type(8) img{
+    width: 389px;
+    height: 282px;
+}
+
+#jiHe>div:nth-of-type(9){
+    left: 812px; 
+    top: 739px;
+}
+
+#jiHe>div:nth-of-type(10){
+    left: 812px; 
+    top: 1022px; 
+}
+
+#jiHe>div:nth-of-type(9) img,#jiHe>div:nth-of-type(10) img{
+    width: 389px;
+    height: 266px;
+}
+
+
+
+
+
+
+
+/* 脚部 */
+#foot {
+    font-size: 13px;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: #999999;
+
+}
+
+#foot-total {
+    width: 1200px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+#foot-total div:nth-of-type(1) {
+    width: 330px;
+    height: 30px;
+    float: left;
+    margin-top: 24px;
+}
+
+#foot-total div:nth-of-type(2) {
+    width: 400px;
+    height: 30px;
+    float: left;
+    margin-left: 105px;
+    margin-top: 24px;
+}
+
+#foot-total div:nth-of-type(3) {
+    width: 83px;
+    height: 20px;
+    float: left;
+    margin-left: 276px;
+    margin-top: 24px;
+
+}
+
+#foot-total div:nth-of-type(4) {
+    width: 121px;
+    height: 30px;
+    clear: both;
+    margin: 20px auto;
+    padding-top: 10px;
+}
+
+#foot-total-ul li {
+    margin-top: 0px;
+    margin-right: 20PX;
+    cursor: pointer;
+}
